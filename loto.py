@@ -5,6 +5,6 @@ list2=[]
 for n in list1:
 	list2=list2+[random.randrange(1,50)]
 
-list1=list2
-print list1
+list2.sort()
+print list2
 
